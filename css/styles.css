@@ -1,0 +1,89 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.article-card{
+    margin: 30px auto;
+    height:600px;
+    width: 375px;
+}
+
+.img-div{
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 37%;
+    border-radius: 2% 2% 0 0;
+}
+
+.drawers{
+    position: relative;
+    top: -25px;
+    max-width: 100%;
+}
+
+.info-subcard{
+    background-color: white;
+    border-radius: 2%;
+}
+
+.article-title{
+    color: hsl(217, 19%, 35%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    padding: 40px 40px 10px 40px;
+}
+
+.article-desc{
+    color: hsl(214, 17%, 51%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    padding: 0px 40px;
+}
+
+.author-subcard{
+    padding: 0px 40px 20px 40px;
+}
+
+.pfp{
+    position: relative;
+    float:left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.share-btn{
+    position: relative;
+    float: right;
+}
+
+.author-name{
+    color: hsl(217, 19%, 35%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0px 0px 0px 70px;
+}
+
+.article-date{
+    color: hsl(214, 17%, 51%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 0px 0px 0px 70px;
+}
+
