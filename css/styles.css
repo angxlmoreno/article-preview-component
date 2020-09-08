@@ -64,11 +64,31 @@ body {
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    margin: 5px 0px 0px 0px;
 }
 
 .share-btn{
+    background-color: hsl(210, 46%, 95%);
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
     position: relative;
     float: right;
+    margin: 10px 0px 0px 0px;
+}
+
+.svg-icon{
+    position: relative;
+    top: -2px;
+}
+
+.share-btn:hover{
+    background-color: hsl(214, 17%, 51%)
+}
+
+.share-btn:hover path{
+    fill: #FEFEFE;
 }
 
 .author-name{
@@ -76,7 +96,7 @@ body {
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
     font-size: 0.9rem;
-    padding: 0px 0px 0px 70px;
+    padding: 7px 0px 0px 70px;
 }
 
 .article-date{
