@@ -33,7 +33,7 @@ body {
 
 .info-subcard{
     background-color: white;
-    border-radius: 2%;
+    border-radius: 0 0 2% 2%;
 }
 
 .article-title{
@@ -76,6 +76,7 @@ body {
     position: relative;
     float: right;
     margin: 10px 0px 0px 0px;
+    cursor: pointer;
 }
 
 .svg-icon{
@@ -89,6 +90,22 @@ body {
 
 .share-btn:hover path{
     fill: #FEFEFE;
+}
+
+#shareBox{
+    background-color: hsl(217, 19%, 35%);
+    color: #FEFEFE;
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+    padding: 0px 40px 20px 40px;
+}
+
+.hidden{
+    display: none;
+}
+
+.unhidden{
+    display: block;
 }
 
 .author-name{

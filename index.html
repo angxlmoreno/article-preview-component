@@ -21,22 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-
+    <script src="js/index.js"></script>
     <title>Frontend Mentor | Article preview component</title>
   </head>
 
@@ -57,7 +42,7 @@
         </p>
         <div class="author-subcard">
           <img class="pfp" src="images/avatar-michelle.jpg" alt="avatar-img" />
-          <button class="share-btn">
+          <button onclick="myFunction(this,'shareBox')" value="hide" class="share-btn">
             <svg
               class="svg-icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -69,11 +54,15 @@
                 d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
               />
             </svg>
-
-            <!-- <object class="arrow" data="images/icon-share.svg" type="image/svg+xml"></object> -->
           </button>
           <h3 class="author-name">Michelle Appleton</h3>
           <h4 class="article-date">28 Jun 2020</h4>
+        </div>
+        <div id="shareBox" class="hidden">
+          SHARE 
+          <a href="#"><img src="images/icon-facebook.svg" alt="Facebook"></a>
+          <a href="#"><img src="images/icon-twitter.svg" alt="Twitter"></a>
+          <a href="#"><img src="images/icon-pinterest.svg" alt="Pinterest"></a>
         </div>
       </div>
     </div>
